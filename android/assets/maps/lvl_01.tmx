@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="400" height="50" tilewidth="16" tileheight="16" infinite="0" nextlayerid="30" nextobjectid="268">
+ <tileset firstgid="1" name="mountain_padding" tilewidth="16" tileheight="16" spacing="4" tilecount="2601" columns="51">
+  <image source="tilesets/mountain_padding.png" width="1024" height="1024"/>
+ </tileset>
+ <layer id="23" name="background_sky" width="400" height="50" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/gClUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAbOI8AAQ==
+  </data>
+ </layer>
+ <layer id="24" name="background_back" width="400" height="50" locked="1">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer id="25" name="background_front" width="400" height="50" locked="1">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer id="26" name="level_map" width="400" height="50" locked="1">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer id="27" name="foreground_back" width="400" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt20tS3DAQAFA4QAJHSuBIAXIkSI4EyV0ilrEHj4aWrI/fq1IVm6FnYXW7W6OrKwAAAAAAAAAAAAAAAAAo4yat29ZfAoDh3KV13/pLADCUh7Qe03pK62fFOMseR88DMJZl3n5O6yWtX2n9rhh32ePoeQDGsszbr2m9pfUnrb+VYi57nL16HgDKOJW3v1xfXX1N6yat2+s6cZc9zl49zxbzM4B8p/L2t1Qzvqd1l9Z9pfqx7HH26HnOyZmfqTHAKUfMDafy9o9UMx7SekzrqVL9WPY4e/Q8W3LnZ85oYF6RGhDNDSPWn4/y9nP6+6ViHl/2OHv0PFty5mfOaGBun60BJXLDiO+mH+Xt1/T3W8U8vuxx9uh5tuTMz3o4o5lJ6/et1vHpS6QGRHNDbuzentmWeXtZo2r3PFty5mc9nNHMpPX7Vuv49CVSA6K5ITd2j89s7V5jhO+RMz9rfUYzk9azwNbx6U+kBkRzQ05sz2y/cvqw1mc0M2k9C2wdn/P2ntVEakA0N+TE9sz27dz8rPUZzbtSeyryf0p8h9azwNbxOW/vWU2kBkRzQ07sIz6zvZ33bMmZn7We9ZW6oxLZmyX2detZYOv4bGsxq4nWgMj5bU7s2Z7Z2nmK/5W6oxLZm6X2detZYOv4bGs1q4m8H0bfLc99frZntmaeYq3UHZXI3iy1r1vPAlvHZ9sRZzXnzPTM1s5TrJW6oxLZmyX3dcvfa/cQv3fR2XPk87PNakqZ5ZmtnadYK3VHJbI3S+7r1mdJreP3Ljp7jnx+tllNKbM8s7XzFGul7qhE9qZ9fQzR2XP08zPNalirnadYK3VHJbI37etjiM6eS8yuZ5nVsFY7T3FaqTsqkb1pX88vOnsuMbueZVbD2h55irVSd1Ra/k4xYqT7RCOLzp7NrjlnhPt2zGXE+0Qj1rzo7NnsGujJqPeJRqx50dmz2TXQk57uE+X2FKPWvHfR2bPZA9CLnu4T5fYUPdW8S8n/wCx6OZO9pKfoqeYBHFUvZ7KX9BS91DyAI+vlTPaSnqKXmgdwdD3cJ7qkp+il5gEcXQ9nupf2FD3UPADau7Sn6KHmAdAHPQUAn6GnAAAAAAAAAAAAAJjXP7m1Vgg=
+  </data>
+ </layer>
+ <layer id="28" name="foreground_front" width="400" height="50" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJzt1TtuwlAURVGbX5pMJxhomA42TpPxJCAapgNEaZhNThmhp7Q20lrSLk53u1tVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0afXPBoBHberSPvWFDQCPTukzfaVDOhb2ebDrABirn3RJ13RL34V9H+w6AMZoUVfVS5qkaZqleWG/1kNfCsCYrPMXNuktLVOTVoW99T8A+KPPX3hPu9SmLu0L+8P/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAp/cLHJ8Z6g==
+  </data>
+ </layer>
+ <layer id="29" name="enemies_pathing" width="400" height="50" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/gClUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAbOI8AAQ==
+  </data>
+ </layer>
+ <objectgroup id="9" name="ground" locked="1">
+  <object id="1" x="208" y="512" width="464" height="16"/>
+  <object id="5" x="208" y="0" width="16" height="512"/>
+  <object id="55" x="672" y="512">
+   <polygon points="0,0 128,-64 128,-48 0,16"/>
+  </object>
+  <object id="56" x="800" y="448" width="144" height="16"/>
+  <object id="57" x="1008" y="416" width="336" height="16"/>
+  <object id="58" x="944" y="448">
+   <polygon points="0,0 64,-32 64,-16 0,16"/>
+  </object>
+  <object id="59" x="1344" y="416">
+   <polygon points="0,0 64,32 64,48 48,48 0,16"/>
+  </object>
+  <object id="61" x="1568" y="512" width="80" height="16"/>
+  <object id="62" x="1600" y="0" width="32" height="512"/>
+  <object id="63" x="1248" y="544" width="256" height="16"/>
+  <object id="64" x="1120" y="672" width="208" height="16"/>
+  <object id="65" x="976" y="640" width="80" height="16"/>
+  <object id="66" x="976" y="448" width="16" height="192"/>
+  <object id="67" x="1056" y="640">
+   <polygon points="0,0 64,32 64,48 0,16"/>
+  </object>
+  <object id="68" x="1248" y="544">
+   <polygon points="0,0 -64,32 -64,48 -48,48 0,16"/>
+  </object>
+  <object id="69" x="1328" y="672">
+   <polygon points="0,0 64,32 64,48 0,16"/>
+  </object>
+  <object id="71" x="1504" y="544">
+   <polygon points="0,0 64,-32 64,-16 0,16"/>
+  </object>
+  <object id="73" x="1392" y="704" width="368" height="16"/>
+  <object id="74" x="1744" y="688" width="16" height="16"/>
+  <object id="75" x="1744" y="672" width="192" height="16"/>
+  <object id="82" x="2080" y="608" width="368" height="16"/>
+  <object id="83" x="2272" y="592" width="32" height="16"/>
+  <object id="84" x="1936" y="672">
+   <polygon points="0,0 144,-64 144,-48 0,16"/>
+  </object>
+  <object id="104" x="2512" y="576" width="112" height="16"/>
+  <object id="105" x="2752" y="640" width="256" height="16"/>
+  <object id="106" x="2896" y="624" width="32" height="16"/>
+  <object id="107" x="3040" y="624" width="32" height="16"/>
+  <object id="108" x="3136" y="592" width="48" height="16"/>
+  <object id="109" x="2960" y="496" width="128" height="16"/>
+  <object id="110" x="2848" y="528" width="48" height="16"/>
+  <object id="111" x="3168" y="496" width="48" height="96"/>
+  <object id="112" x="3312" y="448" width="32" height="16"/>
+  <object id="114" x="3440" y="400" width="96" height="16"/>
+  <object id="115" x="2624" y="576">
+   <polygon points="0,0 128,64 128,80 0,16"/>
+  </object>
+  <object id="117" x="2768" y="576">
+   <polygon points="0,0 80,-48 80,-32 0,16"/>
+  </object>
+  <object id="118" x="2896" y="528">
+   <polygon points="0,0 64,-32 64,-16 0,16"/>
+  </object>
+  <object id="119" x="3008" y="640">
+   <polygon points="0,0 32,-16 32,0 0,16"/>
+  </object>
+  <object id="120" x="3072" y="624">
+   <polygon points="0,0 64,-32 64,-16 0,16"/>
+  </object>
+  <object id="122" x="3216" y="496">
+   <polygon points="0,0 96,-48 96,-32 0,16"/>
+  </object>
+  <object id="123" x="3344" y="448">
+   <polygon points="0,0 96,-48 96,-32 0,16"/>
+  </object>
+  <object id="124" x="3536" y="400">
+   <polygon points="0,0 96,48 96,64 0,16"/>
+  </object>
+  <object id="125" x="3632" y="400" width="224" height="16"/>
+  <object id="126" x="3632" y="448" width="32" height="16"/>
+  <object id="127" x="3824" y="512" width="128" height="16"/>
+  <object id="128" x="3936" y="400" width="112" height="112"/>
+  <object id="131" x="2448" y="608">
+   <polygon points="0,0 64,-32 64,-16 0,16"/>
+  </object>
+  <object id="132" x="3760" y="496" width="32" height="16"/>
+  <object id="133" x="3664" y="448">
+   <polygon points="0,0 96,48 96,64 0,16"/>
+  </object>
+  <object id="134" x="3792" y="496">
+   <polygon points="0,0 32,16 32,32 0,16"/>
+  </object>
+  <object id="138" x="4336" y="512" width="864" height="16"/>
+  <object id="139" x="4800" y="288" width="416" height="16"/>
+  <object id="140" x="4608" y="448" width="272" height="16"/>
+  <object id="141" x="4336" y="416" width="208" height="16"/>
+  <object id="142" x="4352" y="0" width="32" height="416"/>
+  <object id="143" x="5184" y="304" width="16" height="208"/>
+  <object id="144" x="4880" y="448">
+   <polygon points="0,0 64,32 32,32 0,16"/>
+  </object>
+  <object id="145" x="4544" y="416">
+   <polygon points="0,0 64,32 64,48 0,16"/>
+  </object>
+  <object id="156" x="4144" y="448" width="32" height="16"/>
+  <object id="157" x="4240" y="480" width="32" height="16"/>
+  <object id="158" x="4272" y="480">
+   <polygon points="0,0 64,32 64,48 0,16"/>
+  </object>
+  <object id="159" x="4240" y="480">
+   <polygon points="0,0 -64,-32 -64,-16 0,16"/>
+  </object>
+  <object id="160" x="4048" y="400">
+   <polygon points="0,0 96,48 96,64 0,16"/>
+  </object>
+  <object id="161" x="4672" y="336" width="32" height="16"/>
+  <object id="163" x="4704" y="336">
+   <polygon points="0,0 96,-48 96,-32 0,16"/>
+  </object>
+  <object id="164" x="5280" y="320" width="32" height="16"/>
+  <object id="165" x="5376" y="352" width="128" height="16"/>
+  <object id="166" x="5536" y="368" width="864" height="16"/>
+  <object id="167" x="5216" y="288">
+   <polygon points="0,0 64,32 64,48 0,16"/>
+  </object>
+  <object id="168" x="5312" y="320">
+   <polygon points="0,0 64,32 64,48 0,16"/>
+  </object>
+  <object id="169" x="5504" y="352">
+   <polygon points="0,0 32,16 32,32 0,16"/>
+  </object>
+  <object id="254" x="2720" y="576" width="48" height="16"/>
+  <object id="255" x="4672" y="336">
+   <polygon points="0,0 -96,48 -64,48 0,16"/>
+  </object>
+  <object id="257" x="224" y="0" width="6144" height="16"/>
+  <object id="258" x="6352" y="16" width="16" height="352"/>
+  <object id="267" x="5456" y="336" width="32" height="16"/>
+ </objectgroup>
+ <objectgroup id="10" name="bouncers" locked="1"/>
+ <objectgroup id="11" name="freezers" locked="1"/>
+ <objectgroup id="12" name="secrets" locked="1">
+  <object id="249" name="secret 1" x="1008" y="384" width="32" height="32">
+   <properties>
+    <property name="secret" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="250" name="secret 2" x="1872" y="640" width="32" height="32">
+   <properties>
+    <property name="secret" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="251" name="secret 3" x="3760" y="464" width="32" height="32">
+   <properties>
+    <property name="secret" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="252" name="secret 4" x="4912" y="384" width="32" height="32">
+   <properties>
+    <property name="secret" type="int" value="4"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="13" name="enemies" locked="1">
+  <object id="152" x="4672" y="320" width="32" height="16">
+   <properties>
+    <property name="type" value="tutorialZombie"/>
+   </properties>
+  </object>
+  <object id="153" x="4752" y="432" width="32" height="16">
+   <properties>
+    <property name="type" value="tutorialZombie"/>
+   </properties>
+  </object>
+  <object id="154" x="4896" y="272" width="32" height="16">
+   <properties>
+    <property name="type" value="tutorialZombie"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="triggers">
+  <object id="2" x="368" y="496" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-1"/>
+   </properties>
+  </object>
+  <object id="51" x="992" y="448" width="608" height="96">
+   <properties>
+    <property name="trigger" type="int" value="11"/>
+   </properties>
+  </object>
+  <object id="76" x="1280" y="560" width="496" height="144">
+   <properties>
+    <property name="trigger" type="int" value="12"/>
+   </properties>
+  </object>
+  <object id="77" x="1248" y="560" width="32" height="112">
+   <properties>
+    <property name="trigger" type="int" value="-11"/>
+   </properties>
+  </object>
+  <object id="78" x="1776" y="400" width="16" height="288">
+   <properties>
+    <property name="trigger" type="int" value="-11"/>
+   </properties>
+  </object>
+  <object id="79" x="2048" y="0" width="272" height="624">
+   <properties>
+    <property name="trigger" type="int" value="12"/>
+   </properties>
+  </object>
+  <object id="80" x="2032" y="0" width="16" height="640">
+   <properties>
+    <property name="trigger" type="int" value="-11"/>
+   </properties>
+  </object>
+  <object id="81" x="2320" y="0" width="16" height="624">
+   <properties>
+    <property name="trigger" type="int" value="-11"/>
+   </properties>
+  </object>
+  <object id="93" x="368" y="0" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-10"/>
+   </properties>
+  </object>
+  <object id="137" x="4288" y="320" width="16" height="192">
+   <properties>
+    <property name="trigger" type="int" value="-11"/>
+   </properties>
+  </object>
+  <object id="148" x="4960" y="16" width="256" height="272">
+   <properties>
+    <property name="trigger" type="int" value="14"/>
+   </properties>
+  </object>
+  <object id="150" x="4288" y="288" width="512" height="32">
+   <properties>
+    <property name="trigger" type="int" value="-11"/>
+   </properties>
+  </object>
+  <object id="170" x="1312" y="400" width="464" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-11"/>
+   </properties>
+  </object>
+  <object id="171" x="5760" y="16" width="16" height="352">
+   <properties>
+    <property name="trigger" type="int" value="-5"/>
+   </properties>
+  </object>
+  <object id="172" x="5968" y="16" width="16" height="352">
+   <properties>
+    <property name="trigger" type="int" value="-39"/>
+   </properties>
+  </object>
+  <object id="253" x="384" y="496" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-2"/>
+   </properties>
+  </object>
+  <object id="259" x="5696" y="16" width="16" height="352">
+   <properties>
+    <property name="trigger" type="int" value="-11"/>
+   </properties>
+  </object>
+  <object id="260" x="4304" y="320" width="880" height="192">
+   <properties>
+    <property name="trigger" type="int" value="13"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

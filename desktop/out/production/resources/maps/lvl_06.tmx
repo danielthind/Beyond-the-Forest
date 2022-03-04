@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="200" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="215">
+ <tileset firstgid="1" source="tilesets/mountain_padding.tsx"/>
+ <layer id="8" name="enemies_pathing" width="200" height="100" visible="0" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/gClUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAbOI8AAQ==
+  </data>
+ </layer>
+ <layer id="1" name="background_sky" width="200" height="100" visible="0" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/gClUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAbOI8AAQ==
+  </data>
+ </layer>
+ <layer id="3" name="background_back" width="200" height="100" visible="0" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/gClUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAbOI8AAQ==
+  </data>
+ </layer>
+ <layer id="4" name="background_front" width="200" height="100" visible="0" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/gClUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAbOI8AAQ==
+  </data>
+ </layer>
+ <layer id="5" name="level_map" width="200" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt23tyo0YQx3FVreDvxBYgXSfJxtbjPrGTTQ4U53GiZAOSOEdGpe7yj5asVdbRgu3vp6oLzGNAwMgz02I0AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwBD8PR6NPqaoU6xT/GPh87VNNym248P9duuasH0jcWxf4CWpstGoTHGd4sqmu2UTi926Ijvcr7DtfNtCyils6vsDAAAAAAAAAD6P5ysayXXUkrs4laOI+2q+45z9/HjnHAvoy7XlIjxf4fkJz2Gc4rmOqxDH8iLKy9djXZMPwRekuez6RM4beKtK+9/g+e+rM/4n9CHWZdpcQNeVtLcKafMB51inZ6XOHqdNitbmN7Z8t2xr0Vj4cuA1q/J9zFKUKaY2nViUtm5i25X54z5F3vfZAwAAvHyN9U221gdZ23ybPa5rpe+ykfla+jrKt2+lHC+7lWPFsnzd1pYr3beWMjeyj/enjp0T8Dm8PzKV/spU+iiFhfdhYr+msGWqkD5QIX2cwsrQYxQSs1C+mlkZ8Zz8vKrQ16IvBQDD4fm59bj7O6w65N+bM3J2Wpbn+eI77Fref83pa3vO21vNkXYbXr8mtN3b0I/wfoK31Z/D83P+nngpuTpf5r+VOrcsL6MMZeoxrs8s003y7hi2t90mtLveHG2/l6Gd7v0AX8bzAcDRnno+H4v06VbaIjr1MUUfY4zjiE3WHdf09bqPr/NlOk7ZyNTPR4+vf/t6nDY/Mk7s130r92GddcejG7nudXbYVvX7qb/j8dAx5/h8aPs3Ph+nzqlPOu44k/k4LUKbxZc7HWeM206lfTPJu+OcPk5aynY6funnNwsRx0BPaeXeaP1us0/3S7S+6r3U74xjdVW3jX2kRso7Rp8v/Y6oZf4cH8J2fo1ncm98vpBrXcn1r/LuWLbf14lMy7CfPwOl3KP4bMXx8lPnhMuq8u499zqofZOnFOH+a13VZyia5t3vjJnsq/mRY+L3hH4neFlP0ToZ68cf49HozxR3Fr+k+Ca/bABDUsj391P1vhw/1pX63T6ad/s685PVnd2ydYr78X66SbG1ZT+P99tvLT6M98vubPm91b073kvBC7erK5MURYppisriwf5+sKjCfGlR2XY6P5X9XSXla7kPYbmXhddhI32DOuuOMZzqW/r6+DssHc/4Um7S83jLM4kL0P6Btm28b/KUaejf6m+yPrUvAAAYNh3Lj6E5gzjmfpMdtr01l9Rm3XH/WrbVPJ/uq7kl/VvzSH6uuk0r22gbXvNRup+ek071vQ+f+rqYH9XcR8yLNmG9n0MTjqf5MH13I+ZZainbj6fH0LyIXgvddp11r/9GjqefWd81ifmiePw6HD9eu62U32bdZ8nL+Cs7fCb9XP069MnbwNO8O57v7WB9N2HnfTrf+xQ/Zt33F7w9rTm9mFvUnKG+/zCRY2puQM8rvucwy7ttfc1paK6gkPkyP8xnaN6qku3LMNVyNMc1DWWVR0Lzn/ouiB9bc6P+2aqwf8zDaS5O31fR483CseK18HOJ755obkjvQxGOq+/M6G/g9F7pNY3vreymX6X4OsVHqQcxV/xS/JA+w12K31L8/ox6vUif+TbFTb6fv5G/Vxa7+aVN5za/lG3mts9C5m+lvKWUv8ofj7kMx13Z8lU41kLKXoZYhfW+n5fln0XPSfed593POJd5LXch+87D8lj2So4ZzyWWP8+753Qbwq/LQtav5HgrOSfdXj+fh2+3CmX5tt+m+C7FVYrr/P97Vvvwa6oTDxf4f3fpHC4x/Dz5+1TG9y+8flxK3/eW6L9+4Gl931uC+jFkfd9bgvoxZH3fW4L6MWR931uC+jFkfd9bgvoxZH3fW4L6MWR931uC+jFkfd9bgvoxZH3fW4L6MWR931uC+jFkfd9bgvoBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHhb/gVh8OMk
+  </data>
+ </layer>
+ <layer id="6" name="foreground_back" width="200" height="100" visible="0" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5Ux/gClUBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAbOI8AAQ==
+  </data>
+ </layer>
+ <layer id="7" name="foreground_front" width="200" height="100" visible="0" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJzt2L0NwjAQgNErkuXCTDAICRIjwCD5GYmz5CKWOxoo3pvAzae7cwQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPCNbYh4DPG8jhGX8devgf9S+rhnH69s46YPaKzZx5x9TNnGWx/Q2E59mB/QOur9Yb+C3l7vj8l9Dp3Sx1L/r8wPaK11vzI/oHec9iv/VwAAAAAAAAAAAAAAFB8ABhsD
+  </data>
+ </layer>
+ <objectgroup id="9" name="ground" locked="1">
+  <object id="3" x="432" y="1040" width="2320" height="16"/>
+  <object id="5" x="176" y="608" width="16" height="464"/>
+  <object id="6" x="3008" y="464" width="16" height="608"/>
+  <object id="9" x="560" y="480" width="15.8161" height="416">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="14" x="2528" y="480" width="15.8161" height="416">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+  <object id="16" x="2160" y="896" width="464" height="16"/>
+  <object id="47" x="480" y="896" width="464" height="16"/>
+  <object id="52" x="2752" y="1040">
+   <polygon points="0,0 64,32 64,48 0,16"/>
+  </object>
+  <object id="53" x="2816" y="1072" width="208" height="16"/>
+  <object id="54" x="2832" y="1040" width="176" height="16"/>
+  <object id="56" x="432" y="1040">
+   <polygon points="0,0 -64,32 -64,48 0,16"/>
+  </object>
+  <object id="57" x="176" y="1072" width="192" height="16"/>
+  <object id="58" x="176" y="1040" width="192" height="16"/>
+  <object id="61" x="2656" y="896" width="352" height="16"/>
+  <object id="63" x="192" y="896" width="256" height="16"/>
+  <object id="93" x="1696" y="976" width="144" height="16"/>
+  <object id="114" x="1872" y="784" width="208" height="16"/>
+  <object id="115" x="1472" y="976" width="128" height="16"/>
+  <object id="121" x="2064" y="832" width="112" height="16"/>
+  <object id="141" x="1344" y="912" width="160" height="16"/>
+  <object id="142" x="1104" y="912" width="144" height="16"/>
+  <object id="143" x="1568" y="912" width="160" height="16"/>
+  <object id="147" x="1200" y="784" width="288" height="16"/>
+  <object id="148" x="1536" y="784" width="288" height="16"/>
+  <object id="149" x="960" y="848" width="192" height="16"/>
+  <object id="152" x="1808" y="912" width="144" height="16"/>
+  <object id="154" x="1008" y="720" width="256" height="16"/>
+  <object id="158" x="1360" y="624" width="128" height="16"/>
+  <object id="159" x="1600" y="624" width="112" height="16"/>
+  <object id="160" x="1456" y="496" width="160" height="16"/>
+  <object id="165" x="1824" y="624" width="96" height="16"/>
+  <object id="166" x="1680" y="496" width="176" height="16"/>
+  <object id="195" x="1216" y="656" width="96" height="16"/>
+  <object id="196" x="1904" y="672" width="96" height="16"/>
+  <object id="198" x="1392" y="816" width="176" height="16"/>
+  <object id="199" x="1696" y="816" width="208" height="16"/>
+  <object id="200" x="2096" y="880" width="16" height="48"/>
+  <object id="201" x="2048" y="928" width="64" height="16"/>
+  <object id="212" x="800" y="912" width="15.8161" height="128">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+  </object>
+  <object id="214" x="2288" y="912" width="15.8161" height="128">
+   <properties>
+    <property name="direction" value="left"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="10" name="bouncers" locked="1"/>
+ <objectgroup id="11" name="freezers" locked="1"/>
+ <objectgroup id="12" name="secrets" locked="1"/>
+ <objectgroup id="13" name="enemies" locked="1">
+  <object id="167" x="1296" y="800" width="16" height="128">
+   <properties>
+    <property name="type" value="spider"/>
+   </properties>
+  </object>
+  <object id="170" x="1536" y="512" width="16" height="128">
+   <properties>
+    <property name="type" value="spider"/>
+   </properties>
+  </object>
+  <object id="171" x="1760" y="512" width="16" height="128">
+   <properties>
+    <property name="type" value="spider"/>
+   </properties>
+  </object>
+  <object id="210" x="1984" y="800" width="16" height="128">
+   <properties>
+    <property name="type" value="spider"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="14" name="triggers" locked="1">
+  <object id="4" x="640" y="880" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-1"/>
+   </properties>
+  </object>
+  <object id="43" x="2672" y="848" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-200"/>
+   </properties>
+  </object>
+  <object id="44" x="2448" y="992" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-201"/>
+   </properties>
+  </object>
+  <object id="45" x="640" y="992" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-202"/>
+   </properties>
+  </object>
+  <object id="46" x="416" y="848" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-203"/>
+   </properties>
+  </object>
+  <object id="50" x="1488" y="1024" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="51" x="1600" y="1024" width="16" height="16">
+   <properties>
+    <property name="trigger" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="59" x="192" y="1056" width="32" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-100"/>
+   </properties>
+  </object>
+  <object id="60" x="2976" y="1056" width="32" height="16">
+   <properties>
+    <property name="trigger" type="int" value="-100"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

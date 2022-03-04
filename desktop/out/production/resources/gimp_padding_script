@@ -1,0 +1,186 @@
+GIMP 2.10.6 Python Console
+Python 2.7.15 (default, Jun 27 2018, 06:52:28) 
+[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)]
+>>> image = gimp.image_list()[0]
+>>> 
+>>> i = 1
+>>> j = 0
+>>> k = 0
+>>> padding = 4
+>>> width = 700
+>>> height = 700
+>>> count = 33
+>>> 
+>>> for x in range(count):
+... 	k = (i * 16) + (j * padding)
+... 	k
+... 	pdb.gimp_image_select_rectangle(image, 2, 0, k, width, height)
+... 	drawable = pdb.gimp_image_get_active_drawable(image)
+... 	non_empty = pdb.gimp_edit_cut(drawable)
+... 	i = i + 1
+... 	k = (i * 16) + (j * padding) + 1
+... 	k
+... 	floating_sel = pdb.gimp_edit_paste(drawable, FALSE)
+... 	pdb.gimp_drawable_offset(floating_sel, FALSE, 1, 0, padding)
+... 	pdb.gimp_floating_sel_anchor(floating_sel)
+... 	pdb.gimp_selection_all(image)
+... 	j = j + 1
+... 
+16
+33
+36
+53
+56
+73
+76
+93
+96
+113
+116
+133
+136
+153
+156
+173
+176
+193
+196
+213
+216
+233
+236
+253
+256
+273
+276
+293
+296
+313
+316
+333
+336
+353
+356
+373
+376
+393
+396
+413
+416
+433
+436
+453
+456
+473
+476
+493
+496
+513
+516
+533
+536
+553
+556
+573
+576
+593
+596
+613
+616
+633
+636
+653
+656
+673
+>>> image = gimp.image_list()[0]
+>>> 
+>>> i = 1
+>>> j = 0
+>>> k = 0
+>>> padding = 4
+>>> width = 700
+>>> height = 700
+>>> count = 33
+>>> 
+>>> for x in range(count):
+... 	k = (i * 16) + (j * padding)
+... 	k
+... 	pdb.gimp_image_select_rectangle(image, 2, k, 0, width, height)
+... 	drawable = pdb.gimp_image_get_active_drawable(image)
+... 	non_empty = pdb.gimp_edit_cut(drawable)
+... 	j = j + 1
+... 	k = (i * 16) + (j * padding) + 1
+... 	k
+... 	floating_sel = pdb.gimp_edit_paste(drawable, FALSE)
+... 	pdb.gimp_drawable_offset(floating_sel, FALSE, 1, padding, 0)
+... 	pdb.gimp_floating_sel_anchor(floating_sel)
+... 	pdb.gimp_selection_all(image)
+... 	i = i + 1
+... 
+16
+21
+36
+41
+56
+61
+76
+81
+96
+101
+116
+121
+136
+141
+156
+161
+176
+181
+196
+201
+216
+221
+236
+241
+256
+261
+276
+281
+296
+301
+316
+321
+336
+341
+356
+361
+376
+381
+396
+401
+416
+421
+436
+441
+456
+461
+476
+481
+496
+501
+516
+521
+536
+541
+556
+561
+576
+581
+596
+601
+616
+621
+636
+641
+656
+661
+>>> 
