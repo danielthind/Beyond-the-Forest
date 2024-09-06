@@ -1,6 +1,6 @@
 # Beyond the Forest
 
-[title_image](https://github.com/danielthind/Beyond-the-Forest/tree/main/release/logo.png?raw=true)
+[title_image](https://github.com/danielthind/Beyond-the-Forest/tree/main/release/logo.png)
 
 @author  IdleMouse
 
