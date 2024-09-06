@@ -18,7 +18,7 @@ Beyond the Forest was side project originally developed for Android, iOS and lat
 - Ad free, no in-app transactions
 
 ## Art
-Art was licenced for the production of ferivative works and non-monetized media product. I have however altered the art as this repos is to serve as programming 
+Art was licenced for the production of ferivative works and non-monetized media product. I have however altered the art as this repos is to serve as programming and game design portfolio piece.
 
 ![screenshot-tablet-01](https://github.com/user-attachments/assets/bfbcd7a9-ce76-4a4a-933f-47f1d7e45f46)
 *Original art*
