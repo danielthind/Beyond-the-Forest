@@ -57,7 +57,7 @@ public class InGameSettingsScreen implements Screen {
 
     // Actors
         // Drawables
-    private TextureRegionDrawable directionsDrawableCD, directionsDrawableLR, HUDDrawableMin, HUDDrawableMax,
+    private TextureRegionDrawable directionsDrawableCD, directionsDrawableLR, //HUDDrawableMin, HUDDrawableMax,
             drawableTrue, drawableFalse;
     private TextureRegionDrawable
             previewControlsTopCD, previewControlsTopLR,
@@ -67,12 +67,15 @@ public class InGameSettingsScreen implements Screen {
             previewNoHUD, previewHUDAnimation;
     private TextureRegionDrawable backButtonDrawable, mainMenuButtonDrawable;
         // Toggles
-    private ImageButton.ImageButtonStyle directionsStyle, HUDStyle, YAxisStyle, animateStyle, backStyle, mainMenuStyle;
-    private ImageButton YAxisToggle, directionToggle, HUDToggle, animateButtonsToggle, backButton, mainMenuButton;
+    private ImageButton.ImageButtonStyle directionsStyle, //HUDStyle,
+                YAxisStyle, animateStyle, backStyle, mainMenuStyle;
+    private ImageButton YAxisToggle, directionToggle, //HUDToggle,
+            animateButtonsToggle, backButton, mainMenuButton;
         // Images
     private Image controlsPreview, HUDPreview;
         // Labels
-    private Label directionsLabel, HUDLabel, YAxisLabel, animateLabel;
+    private Label directionsLabel, //HUDLabel,
+                YAxisLabel, animateLabel;
 
     public InGameSettingsScreen(BeyondManager parent, LevelScreen screen) {
         this.manager = parent;
@@ -149,8 +152,8 @@ public class InGameSettingsScreen implements Screen {
         drawableFalse = new TextureRegionDrawable(textureAtlas.findRegion("setting_menu_trueFalse_fOn"));
         directionsDrawableCD = new TextureRegionDrawable(textureAtlas.findRegion("setting_menu_cdlr_cdOn"));
         directionsDrawableLR = new TextureRegionDrawable(textureAtlas.findRegion("setting_menu_cdlr_lrOn"));
-        HUDDrawableMin = new TextureRegionDrawable(textureAtlas.findRegion("setting_menu_minmax_minOn"));
-        HUDDrawableMax = new TextureRegionDrawable(textureAtlas.findRegion("setting_menu_minmax_maxOn"));
+        //HUDDrawableMin = new TextureRegionDrawable(textureAtlas.findRegion("setting_menu_minmax_minOn"));
+        //HUDDrawableMax = new TextureRegionDrawable(textureAtlas.findRegion("setting_menu_minmax_maxOn"));
             // Previews
         previewControlsTopCD = new TextureRegionDrawable(textureAtlas.findRegion("settings_preview_controls_cd_top"));
         previewControlsTopLR = new TextureRegionDrawable(textureAtlas.findRegion("settings_preview_controls_lr_top"));
@@ -171,8 +174,8 @@ public class InGameSettingsScreen implements Screen {
                 null, null, null);
         directionsStyle = new ImageButton.ImageButtonStyle(directionsDrawableCD, null, directionsDrawableLR,
                 null, null, null);
-        HUDStyle = new ImageButton.ImageButtonStyle(HUDDrawableMin, null, HUDDrawableMax,
-                null, null, null);
+        //HUDStyle = new ImageButton.ImageButtonStyle(HUDDrawableMin, null, HUDDrawableMax,
+                //null, null, null);
         animateStyle = new ImageButton.ImageButtonStyle(drawableFalse, null, drawableTrue,
                 null, null, null);
         backStyle = new ImageButton.ImageButtonStyle(backButtonDrawable, null, null,
@@ -183,15 +186,15 @@ public class InGameSettingsScreen implements Screen {
         // Lables
         YAxisLabel = new Label("FLIP CONTROLS", new Label.LabelStyle(manager.goldFont, Color.GREEN));
         directionsLabel = new Label("DIRECTION BUTTONS", new Label.LabelStyle(manager.goldFont, Color.GREEN));
-        HUDLabel = new Label("HUD LEVEL", new Label.LabelStyle(manager.goldFont, Color.GREEN));
+        //HUDLabel = new Label("HUD LEVEL", new Label.LabelStyle(manager.goldFont, Color.GREEN));
         animateLabel = new Label("BUTTON ANIMATIONS", new Label.LabelStyle(manager.goldFont, Color.GREEN));
 
         YAxisLabel.setFontScale(0.75f);
         YAxisLabel.setAlignment(Align.center);
         directionsLabel.setFontScale(0.75f);
         directionsLabel.setAlignment(Align.center);
-        HUDLabel.setFontScale(0.75f);
-        HUDLabel.setAlignment(Align.center);
+        //HUDLabel.setFontScale(0.75f);
+        //HUDLabel.setAlignment(Align.center);
         animateLabel.setFontScale(0.75f);
         animateLabel.setAlignment(Align.center);
     }
@@ -199,7 +202,7 @@ public class InGameSettingsScreen implements Screen {
         // Toggles
         YAxisToggle = new ImageButton(YAxisStyle);
         directionToggle = new ImageButton(directionsStyle);
-        HUDToggle = new ImageButton(HUDStyle);
+        //HUDToggle = new ImageButton(HUDStyle);
         animateButtonsToggle = new ImageButton(animateStyle);
 
         // Images
@@ -241,6 +244,7 @@ public class InGameSettingsScreen implements Screen {
             }
         });
 
+        /*
         HUDToggle.addListener(new ChangeListener() {
             public void changed (ChangeEvent event, Actor actor) {
                 if (HUDToggle.isChecked()) {
@@ -254,6 +258,7 @@ public class InGameSettingsScreen implements Screen {
                 }
             }
         });
+        */
 
         animateButtonsToggle.addListener(new ChangeListener() {
             public void changed (ChangeEvent event, Actor actor) {
@@ -328,12 +333,14 @@ public class InGameSettingsScreen implements Screen {
         togglesTable.add().size(10, rowPadding);
         togglesTable.row();
 
+        /*
         togglesTable.add(HUDLabel);
         togglesTable.add().width(rowPadding * 2);
         togglesTable.add(HUDToggle).size(
                 (HUDDrawableMin.getRegion().getRegionWidth() * buttonHeight) / drawableTrue.getRegion().getRegionHeight(),
                 buttonHeight);
         togglesTable.row();
+        */
 
         togglesTable.add().size(10, rowPadding);
         togglesTable.row();
@@ -391,7 +398,7 @@ public class InGameSettingsScreen implements Screen {
         directionToggle.setChecked(prefs.getBoolean("controlsLRInsteadOfCD"));
 
         //Gdx.app.log(tag, "show controls: " + prefs.getBoolean("HUDVirtualControls"));
-        HUDToggle.setChecked(prefs.getBoolean("HUDVirtualControls"));
+        //HUDToggle.setChecked(prefs.getBoolean("HUDVirtualControls"));
 
         animateButtonsToggle.setChecked(prefs.getBoolean("HUDAnimateControls"));
     }

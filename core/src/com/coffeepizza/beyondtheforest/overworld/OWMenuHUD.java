@@ -17,7 +17,7 @@ import com.coffeepizza.beyondtheforest.BeyondManager;
 public class OWMenuHUD implements Disposable {
 
     // System
-    private boolean debugging = true;
+    private boolean debugging = false;
     private String tag = "OWMenuHUD";
     private String message = "";
 

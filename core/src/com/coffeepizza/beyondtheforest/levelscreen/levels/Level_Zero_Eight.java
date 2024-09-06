@@ -192,7 +192,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 8 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(3.0f, currentTrigger);
+            createTimerTrigger(1.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -208,7 +208,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 9 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(3.0f, currentTrigger);
+            createTimerTrigger(2.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -224,7 +224,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 10 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(2.0f, currentTrigger);
+            createTimerTrigger(1.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -240,7 +240,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 11 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(3.0f, currentTrigger);
+            createTimerTrigger(2.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -256,7 +256,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 12 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(4.0f, currentTrigger);
+            createTimerTrigger(3.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -272,7 +272,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 13 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(6.0f, currentTrigger);
+            createTimerTrigger(5.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -288,7 +288,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 14 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(6.0f, currentTrigger);
+            createTimerTrigger(5.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -304,7 +304,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 15 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(6.0f, currentTrigger);
+            createTimerTrigger(4.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -320,7 +320,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 16 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(6.0f, currentTrigger);
+            createTimerTrigger(5.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -352,7 +352,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 18 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(6.0f, currentTrigger);
+            createTimerTrigger(5.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -368,7 +368,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 19 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(6.0f, currentTrigger);
+            createTimerTrigger(4.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -400,7 +400,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 21 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(6.0f, currentTrigger);
+            createTimerTrigger(5.0f, currentTrigger);
 
             // Game Mode
             // HUD
@@ -416,7 +416,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 22 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(6f, 23);
+            createTimerTrigger(2f, 23);
 
             // Game Mode
             // HUD
@@ -432,7 +432,7 @@ public class Level_Zero_Eight extends LevelScript {
         if (trigger == 23 && currentTrigger(trigger)) {
             // Triggers
             iterateTrigger();
-            createTimerTrigger(6f, 24);
+            createTimerTrigger(5f, 24);
 
 
             // Game Mode

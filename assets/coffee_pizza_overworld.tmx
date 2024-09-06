@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="100" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="181">
+ <tileset firstgid="1" source="coffee_overworld.tsx"/>
+ <layer id="5" name="ow_background" width="100" height="60" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztmdttg0AQRdckJaSSVEQpLoVSXEqqiH+zloy0WS3sg2vPg3ukEbKMZXwPswM4BEIIIYQQQgghpMzni+oDXF+XcJvi9lG/IdwucaupUFjxMSUlnb01H9/xXKaPMTQ7oA89+VuaHRp8vMuFhd6w5mM9v+N2po990GtVura0VIsj+hjvjSzr1dFSet3q5Ew+Hr8XOcfT3Ctr2D8nLT60znK0j5jxjHCxrlUjc6FlP+nM3+Wj5qR3XtDHOCPXO3tzu2Wt2pg1xRmSfo905pp9HHXR2lcWZrkWHz35t/RWbT/pzLX7QHkorVmlfaUzV+zj2uuj5x6xVJqvdaV9xHP3p3Yfd8/yi3nOR3xI563Zx/Tsj60eyV0cdaK9N9A+0rW65XlS3Oe6N8/3jjt1kuec+7LgAe2jNldH5rl0Nt58pE5Kz8prz8+ls/HoY7S2Zof3QoF0YWm99+7jzC60+Ti7C20+pLPQUCjogz48Forn/cRCH3p8JPd53V44y1/nY8SJdA5aCsXg/x/ps9yl5Xjvlc/V3tdeKI766Mm4t6Qztu4DXZZ6BIV05l56BIV03l56BIV03l56BIV01l56BIV01l7coJDO14sTFNLZenFCCCGEEEIIIYRs8Qd5UGj/
+  </data>
+ </layer>
+ <layer id="6" name="ow_topography" width="100" height="60" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztmu1t4zAMhj1KRrnf1yUySeBRPErHaJ0LkFEqIWKP5VHURySfHb0PIESuYjnla5KirWkCAAAAAAAAAAC24zJN763nW0P/6tpny8lfFG8nZ7ezb63t5eacWf9bm1J+t/k5u4TbnzT4CK3WXjGkHjVzvD1a1bl7h2LGx9RPA3kt2S/llX2jNGaQL7nPpeJa8/q3j1ilYMUMGcd4LHOfixxLaYRYZWPFDC2O8VjmPhc55jWyNGmhx6v7Rixm1MQTr5GlyWh6/CmI66l8Ku11e8Sk5RY5JtZHHIvNOedcO8bRYlWIGbOlCeUEbw95/2t1B9n9GuxwVY6lJik9anP5kXyDCDFjlrlW5mNuD66RzBMx23KkL+Xokf0PBY7mGxwt18ZqC563tXu2Rg8th/AYVaKH18H5xXJULUrhNYHk9shH79b5Wi7QcoisPaw5SYORdCBitklpEWLcXctDYd4f3/38OfbPvCNrwCHbUN6mxr9DtufNinGeUC/eNc24HqPFoxRkm1ieSNWFMXgOk2sH8pUj5+geONucnG1Ovm/lYKUO92vqueaatNYdRQteQ6RsFnLsyfdjOVjzBXc8l2rC19SjaCFriJTNLmJM0SNat5EmvLaRvyVW9xyxrqtB3svyPmbPyun4l8vjd9/X1lOpdeka/CfiQ0ss34yihwa/j9mz8vkinotoNX3rd7VhLXUeIVZZrCIPaPc1/xtvLRnZL56B1lUt39uOksNb00MLD3yjnF5aeKBHOc/sMQDtab0XkQP/KKeXHsjldfTSY1Tf0PYX5NJzb7PzjXOoA5dOl9gttN+gVJctcjnpItsIOmn7Pix65vIUo8SzK3vnp43z94ElPiXfJcrzUuOSUfSoIcfG1nnaeMb+hSFi1rNYNi4hJ3bCR7Ylx0dGye17IHd9gdi1HblrOMSubYCP7A++Bre0gY9sj+Uv8JH/g6UJfAQAAAAAAAAAwN74AmDqwKw=
+  </data>
+ </layer>
+ <layer id="7" name="ow_scenery" width="100" height="60" locked="1">
+  <data encoding="base64" compression="zlib">
+   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
+  </data>
+ </layer>
+ <layer id="8" name="ow_path" width="100" height="60" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJzt2ksOgjAUBVBdgfvfrSMTTbD8Wrg8zkmYdAB9vfSD8fEAAAAAAACgl9fz95pq+7Qzzpqxlsl4a8dXHmNVyCOxT1tUWX+m9rkr1Da1V2+5B/v1el+ulEfyPOnVp8Ta5iT2WR5ZeuaRWF9LYn979umM+lpnqLmrujvUOFqF+VHJ1eqpvu5cbX5UG/9vvd8veezTu7Yj1pBqeRyx9spjmaP2v5Fn/mp53Pn5ac4eD7/rZ9uyllXKI7mWJf9hqfb9V6mWCuSRRR5Z5JGl2n5Ywb/ziqzyLD1b3uEsmqiVx5p2+mh9owEAAAAAmd69Cwoh
+  </data>
+ </layer>
+ <layer id="9" name="ow_cloud_cover" width="100" height="60" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENwzAQBEGyPxFqwaWpFJdmFuDIUrAwZoFLP/g55xinmZmZmZmZ2ZetvWOOy37f/uH1lMe+p5vtH755dOLRikcrHq14tOLRikcrHq14tOLRikcrHq14tOLRikcrHq14tOLRikcrHq14tOLRikcrHq14tOLRikcrHq14tOLRikcrHq14tOLRikcrHq14tOLRikerJz3WHK/Dbm096GFmZmZmZmb/tw//KtgW
+  </data>
+ </layer>
+ <objectgroup id="10" name="ow_triggers">
+  <object id="11" name="Level 1" x="672" y="752" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="1"/>
+    <property name="position" type="int" value="1"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2" x="672" y="736" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="2"/>
+   </properties>
+  </object>
+  <object id="12" name="Level 2" x="528" y="752" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="2"/>
+    <property name="position" type="int" value="20"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="13" name="Level 3" x="384" y="704" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="3"/>
+    <property name="position" type="int" value="30"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="18" name="Level 4" x="288" y="592" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="4"/>
+    <property name="position" type="int" value="40"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="19" name="Level 5" x="368" y="432" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="5"/>
+    <property name="position" type="int" value="50"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="26" name="Level 6" x="416" y="336" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="6"/>
+    <property name="position" type="int" value="60"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="29" name="Level 7" x="560" y="256" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="7"/>
+    <property name="position" type="int" value="70"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="33" name="Level 8" x="656" y="320" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="8"/>
+    <property name="position" type="int" value="80"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="36" name="Level 9" x="672" y="464" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="9"/>
+    <property name="position" type="int" value="90"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="38" name="Level 10" x="832" y="576" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="10"/>
+    <property name="position" type="int" value="100"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="40" name="Level 11" x="960" y="608" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="11"/>
+    <property name="position" type="int" value="110"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="41" name="Level 12" x="1072" y="560" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="12"/>
+    <property name="position" type="int" value="120"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="42" name="Level 13" x="1136" y="432" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="13"/>
+    <property name="position" type="int" value="130"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="43" name="Level 14" x="1376" y="416" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="14"/>
+    <property name="position" type="int" value="140"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="44" name="Level 15" x="1344" y="336" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="15"/>
+    <property name="position" type="int" value="150"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="45" name="Level 16" x="1248" y="288" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="16"/>
+    <property name="position" type="int" value="160"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="46" x="672" y="720" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="47" x="656" y="720" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="4"/>
+   </properties>
+  </object>
+  <object id="48" x="608" y="720" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="5"/>
+   </properties>
+  </object>
+  <object id="49" x="592" y="720" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="6"/>
+   </properties>
+  </object>
+  <object id="50" x="576" y="720" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="7"/>
+   </properties>
+  </object>
+  <object id="51" x="576" y="752" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="8"/>
+   </properties>
+  </object>
+  <object id="52" x="544" y="752" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="9"/>
+   </properties>
+  </object>
+  <object id="57" x="512" y="752" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="21"/>
+   </properties>
+  </object>
+  <object id="58" x="496" y="752" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="22"/>
+   </properties>
+  </object>
+  <object id="59" x="480" y="752" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="23"/>
+   </properties>
+  </object>
+  <object id="60" x="480" y="720" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="24"/>
+   </properties>
+  </object>
+  <object id="61" x="464" y="720" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="25"/>
+   </properties>
+  </object>
+  <object id="62" x="448" y="720" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="26"/>
+   </properties>
+  </object>
+  <object id="63" x="416" y="720" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="27"/>
+   </properties>
+  </object>
+  <object id="64" x="416" y="704" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="28"/>
+   </properties>
+  </object>
+  <object id="65" x="400" y="704" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="29"/>
+   </properties>
+  </object>
+  <object id="68" x="368" y="704" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="31"/>
+   </properties>
+  </object>
+  <object id="69" x="352" y="704" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="32"/>
+   </properties>
+  </object>
+  <object id="70" x="336" y="704" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="33"/>
+   </properties>
+  </object>
+  <object id="71" x="304" y="704" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="34"/>
+   </properties>
+  </object>
+  <object id="72" x="304" y="688" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="35"/>
+   </properties>
+  </object>
+  <object id="73" x="288" y="688" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="36"/>
+   </properties>
+  </object>
+  <object id="74" x="288" y="640" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="37"/>
+   </properties>
+  </object>
+  <object id="75" x="288" y="624" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="38"/>
+   </properties>
+  </object>
+  <object id="76" x="288" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="39"/>
+   </properties>
+  </object>
+  <object id="77" x="288" y="576" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="41"/>
+   </properties>
+  </object>
+  <object id="78" x="288" y="544" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="42"/>
+   </properties>
+  </object>
+  <object id="79" x="304" y="544" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="43"/>
+   </properties>
+  </object>
+  <object id="80" x="304" y="528" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="44"/>
+   </properties>
+  </object>
+  <object id="81" x="352" y="528" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="45"/>
+   </properties>
+  </object>
+  <object id="82" x="352" y="512" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="46"/>
+   </properties>
+  </object>
+  <object id="83" x="352" y="496" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="47"/>
+   </properties>
+  </object>
+  <object id="84" x="368" y="496" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="48"/>
+   </properties>
+  </object>
+  <object id="85" x="368" y="448" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="49"/>
+   </properties>
+  </object>
+  <object id="86" x="368" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="51"/>
+   </properties>
+  </object>
+  <object id="87" x="368" y="400" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="52"/>
+   </properties>
+  </object>
+  <object id="88" x="368" y="384" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="53"/>
+   </properties>
+  </object>
+  <object id="89" x="368" y="368" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="54"/>
+   </properties>
+  </object>
+  <object id="90" x="368" y="352" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="55"/>
+   </properties>
+  </object>
+  <object id="91" x="384" y="352" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="56"/>
+   </properties>
+  </object>
+  <object id="92" x="384" y="336" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="57"/>
+   </properties>
+  </object>
+  <object id="93" x="400" y="336" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="58"/>
+   </properties>
+  </object>
+  <object id="94" x="448" y="336" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="62"/>
+   </properties>
+  </object>
+  <object id="95" x="432" y="336" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="61"/>
+   </properties>
+  </object>
+  <object id="96" x="448" y="320" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="63"/>
+   </properties>
+  </object>
+  <object id="97" x="464" y="320" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="64"/>
+   </properties>
+  </object>
+  <object id="98" x="464" y="288" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="65"/>
+   </properties>
+  </object>
+  <object id="99" x="464" y="272" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="66"/>
+   </properties>
+  </object>
+  <object id="100" x="496" y="272" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="67"/>
+   </properties>
+  </object>
+  <object id="101" x="496" y="256" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="68"/>
+   </properties>
+  </object>
+  <object id="102" x="544" y="256" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="69"/>
+   </properties>
+  </object>
+  <object id="103" x="576" y="256" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="71"/>
+   </properties>
+  </object>
+  <object id="104" x="592" y="256" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="72"/>
+   </properties>
+  </object>
+  <object id="105" x="608" y="256" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="73"/>
+   </properties>
+  </object>
+  <object id="106" x="624" y="256" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="74"/>
+   </properties>
+  </object>
+  <object id="107" x="640" y="256" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="75"/>
+   </properties>
+  </object>
+  <object id="108" x="640" y="272" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="76"/>
+   </properties>
+  </object>
+  <object id="109" x="656" y="272" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="77"/>
+   </properties>
+  </object>
+  <object id="110" x="656" y="288" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="78"/>
+   </properties>
+  </object>
+  <object id="111" x="656" y="304" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="79"/>
+   </properties>
+  </object>
+  <object id="112" x="656" y="336" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="81"/>
+   </properties>
+  </object>
+  <object id="113" x="656" y="352" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="82"/>
+   </properties>
+  </object>
+  <object id="114" x="656" y="368" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="83"/>
+   </properties>
+  </object>
+  <object id="115" x="656" y="384" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="84"/>
+   </properties>
+  </object>
+  <object id="116" x="656" y="400" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="85"/>
+   </properties>
+  </object>
+  <object id="117" x="672" y="400" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="86"/>
+   </properties>
+  </object>
+  <object id="118" x="672" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="87"/>
+   </properties>
+  </object>
+  <object id="119" x="672" y="432" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="88"/>
+   </properties>
+  </object>
+  <object id="120" x="672" y="448" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="89"/>
+   </properties>
+  </object>
+  <object id="121" x="672" y="480" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="91"/>
+   </properties>
+  </object>
+  <object id="122" x="672" y="512" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="92"/>
+   </properties>
+  </object>
+  <object id="123" x="704" y="512" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="93"/>
+   </properties>
+  </object>
+  <object id="124" x="704" y="544" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="94"/>
+   </properties>
+  </object>
+  <object id="125" x="720" y="544" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="95"/>
+   </properties>
+  </object>
+  <object id="126" x="784" y="544" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="96"/>
+   </properties>
+  </object>
+  <object id="127" x="800" y="544" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="97"/>
+   </properties>
+  </object>
+  <object id="128" x="800" y="576" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="98"/>
+   </properties>
+  </object>
+  <object id="129" x="816" y="576" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="99"/>
+   </properties>
+  </object>
+  <object id="130" x="848" y="576" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="101"/>
+   </properties>
+  </object>
+  <object id="131" x="864" y="576" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="102"/>
+   </properties>
+  </object>
+  <object id="132" x="864" y="592" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="103"/>
+   </properties>
+  </object>
+  <object id="133" x="880" y="592" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="104"/>
+   </properties>
+  </object>
+  <object id="134" x="896" y="592" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="105"/>
+   </properties>
+  </object>
+  <object id="135" x="912" y="592" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="106"/>
+   </properties>
+  </object>
+  <object id="136" x="912" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="107"/>
+   </properties>
+  </object>
+  <object id="137" x="928" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="108"/>
+   </properties>
+  </object>
+  <object id="138" x="944" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="109"/>
+   </properties>
+  </object>
+  <object id="139" x="976" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="111"/>
+   </properties>
+  </object>
+  <object id="140" x="992" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="112"/>
+   </properties>
+  </object>
+  <object id="141" x="1008" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="113"/>
+   </properties>
+  </object>
+  <object id="142" x="1024" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="114"/>
+   </properties>
+  </object>
+  <object id="143" x="1040" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="115"/>
+   </properties>
+  </object>
+  <object id="144" x="1056" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="116"/>
+   </properties>
+  </object>
+  <object id="145" x="1072" y="608" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="117"/>
+   </properties>
+  </object>
+  <object id="146" x="1072" y="592" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="118"/>
+   </properties>
+  </object>
+  <object id="147" x="1072" y="576" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="119"/>
+   </properties>
+  </object>
+  <object id="148" x="1072" y="544" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="121"/>
+   </properties>
+  </object>
+  <object id="149" x="1072" y="528" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="122"/>
+   </properties>
+  </object>
+  <object id="150" x="1072" y="496" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="123"/>
+   </properties>
+  </object>
+  <object id="151" x="1072" y="480" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="124"/>
+   </properties>
+  </object>
+  <object id="152" x="1072" y="464" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="125"/>
+   </properties>
+  </object>
+  <object id="153" x="1088" y="464" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="126"/>
+   </properties>
+  </object>
+  <object id="154" x="1120" y="464" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="127"/>
+   </properties>
+  </object>
+  <object id="155" x="1136" y="464" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="128"/>
+   </properties>
+  </object>
+  <object id="156" x="1136" y="448" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="129"/>
+   </properties>
+  </object>
+  <object id="157" x="1136" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="131"/>
+   </properties>
+  </object>
+  <object id="158" x="1152" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="132"/>
+   </properties>
+  </object>
+  <object id="159" x="1184" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="133"/>
+   </properties>
+  </object>
+  <object id="160" x="1216" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="134"/>
+   </properties>
+  </object>
+  <object id="161" x="1248" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="135"/>
+   </properties>
+  </object>
+  <object id="162" x="1280" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="136"/>
+   </properties>
+  </object>
+  <object id="163" x="1312" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="137"/>
+   </properties>
+  </object>
+  <object id="164" x="1344" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="138"/>
+   </properties>
+  </object>
+  <object id="165" x="1360" y="416" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="139"/>
+   </properties>
+  </object>
+  <object id="166" x="1376" y="400" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="141"/>
+   </properties>
+  </object>
+  <object id="167" x="1376" y="384" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="143"/>
+   </properties>
+  </object>
+  <object id="168" x="1376" y="368" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="145"/>
+   </properties>
+  </object>
+  <object id="169" x="1376" y="352" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="147"/>
+   </properties>
+  </object>
+  <object id="170" x="1360" y="352" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="148"/>
+   </properties>
+  </object>
+  <object id="171" x="1344" y="352" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="149"/>
+   </properties>
+  </object>
+  <object id="172" x="1344" y="320" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="151"/>
+   </properties>
+  </object>
+  <object id="173" x="1328" y="320" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="152"/>
+   </properties>
+  </object>
+  <object id="174" x="1312" y="320" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="153"/>
+   </properties>
+  </object>
+  <object id="175" x="1296" y="320" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="154"/>
+   </properties>
+  </object>
+  <object id="176" x="1280" y="320" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="155"/>
+   </properties>
+  </object>
+  <object id="177" x="1264" y="320" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="156"/>
+   </properties>
+  </object>
+  <object id="178" x="1248" y="320" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="157"/>
+   </properties>
+  </object>
+  <object id="179" x="1248" y="304" width="16" height="16">
+   <properties>
+    <property name="position" type="int" value="158"/>
+   </properties>
+  </object>
+  <object id="180" name="Level 16" x="1248" y="256" width="16" height="16">
+   <properties>
+    <property name="lvl" type="int" value="17"/>
+    <property name="position" type="int" value="170"/>
+   </properties>
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

@@ -511,7 +511,7 @@ public class LevelScreen implements Screen {
         boolean pressed = false;
 
         // Touch
-        if (isBottomLeftPressed() || isBottomRightPressed()) {
+        if (isBottomLeftPressed() || isBottomRightPressed() || isTopLeftPressed() || isTopRightPressed()) {
             pressed = true;
         }
 

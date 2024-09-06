@@ -10,7 +10,7 @@ import com.coffeepizza.beyondtheforest.levelscreen.util.InputTrigger;
 public class Level_One_Four extends LevelScript {
 
     // System
-    private boolean debugging = true;
+    private boolean debugging = false;
     private String tag = "Lvl_14";
     private String message = "";
 

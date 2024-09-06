@@ -49,6 +49,7 @@ public class Shelob extends Actor {
     private TextureRegion deathRegion;
 
     // Animations
+    /*
     private Animation idleAnimationSpider;
     private Animation walkAnimationSpider;
     private Animation retreatingAnimationSpider;
@@ -57,6 +58,7 @@ public class Shelob extends Actor {
     private Animation attackAnimationSpider;
     private Animation damageAnimationSpider;
     private Animation deathAnimationSpider;
+    */
 
     private Animation idleAnimation;
     private Animation walkingAnimation;
@@ -113,11 +115,11 @@ public class Shelob extends Actor {
         defineColliders();
 
         // Textures
-        this.idleRegionSpider = manager.getAtlas().findRegion("shelob_idle");
-        this.walkRegionSpider = manager.getAtlas().findRegion("shelob_walk");
-        this.attackRegionSpider = manager.getAtlas().findRegion("shelob_attack");
-        this.retreatingRegionSpider = manager.getAtlas().findRegion("shelob_walk_damaged");
-        this.damageRegionSpider = manager.getAtlas().findRegion("shelob_damage");
+        //this.idleRegionSpider = manager.getAtlas().findRegion("shelob_idle");
+        //this.walkRegionSpider = manager.getAtlas().findRegion("shelob_walk");
+        //this.attackRegionSpider = manager.getAtlas().findRegion("shelob_attack");
+        //this.retreatingRegionSpider = manager.getAtlas().findRegion("shelob_walk_damaged");
+        //this.damageRegionSpider = manager.getAtlas().findRegion("shelob_damage");
 
         this.idleRegion = manager.getAtlas().findRegion("dark_wollf_idle");
         this.walkingRegion = manager.getAtlas().findRegion("dark_wollf_walk");
@@ -334,6 +336,7 @@ public class Shelob extends Actor {
 
 
         /** Spider */
+        /*
         // Idle
         for(int i = 0; i < 4; i++) {
             frames.add(new TextureRegion(idleRegionSpider, i * 111, 0, 111, 70));
@@ -387,7 +390,7 @@ public class Shelob extends Actor {
         frames.add(new TextureRegion(retreatingRegionSpider, 0 * 111, 0, 111, 70));
         deathAnimationSpider = new Animation(0.15f, frames);
         frames.clear();
-
+        */
     }
 
     @Override

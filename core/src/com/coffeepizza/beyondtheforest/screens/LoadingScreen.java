@@ -9,6 +9,7 @@ import com.badlogic.gdx.assets.loaders.resolvers.InternalFileHandleResolver;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator;
 import com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGeneratorLoader;
 import com.badlogic.gdx.graphics.g2d.freetype.FreetypeFontLoader;
@@ -88,11 +89,10 @@ public class LoadingScreen implements Screen {
                     //clearSavePrefs();
                     //generateNewSave();
                     //prefs.putBoolean("saveFile", true);
-                    //prefs.putInteger("currentLevel" , 8);
+                    //prefs.putInteger("currentLevel" , 16);
                     //prefs.putInteger("unlockedLevels" , 17);
 
                     prefs.flush();
-
                     manager.printPrefs("save file loading screen");
 
                     // Message loading time
@@ -103,6 +103,13 @@ public class LoadingScreen implements Screen {
 
                 // Sprite sheet
                 manager.textureAtlas = assetManager.get("assets.pack", TextureAtlas.class);
+
+                /*
+                Array<TextureAtlas.AtlasRegion> atlasRegions = manager.textureAtlas.getRegions();
+                for (TextureAtlas.AtlasRegion region : atlasRegions) {
+                    Gdx.app.log(tag, region.name);
+                }
+                */
 
                 // Fonts
                 manager.goldFont = assetManager.get("Gold Box 8x8.ttf", BitmapFont.class);
@@ -319,13 +326,51 @@ public class LoadingScreen implements Screen {
         prefs.putInteger("unlockedLevels" , 1);
 
         // Levels
+        prefs.putBoolean("Lvl_01_playedBefore", false);
+        prefs.putInteger("Lvl_01_start", -1);
+        prefs.putBoolean("Lvl_02_playedBefore", false);
+        prefs.putInteger("Lvl_02_start", -1);
+        prefs.putBoolean("Lvl_03_playedBefore", false);
+        prefs.putInteger("Lvl_03_start", -1);
+        prefs.putBoolean("Lvl_04_playedBefore", false);
+        prefs.putInteger("Lvl_04_start", -1);
+        prefs.putBoolean("Lvl_05_playedBefore", false);
+        prefs.putInteger("Lvl_05_start", -1);
+        prefs.putBoolean("Lvl_06_playedBefore", false);
+        prefs.putInteger("Lvl_06_start", -1);
+        prefs.putBoolean("Lvl_07_playedBefore", false);
+        prefs.putInteger("Lvl_07_start", -1);
+        prefs.putBoolean("Lvl_08_playedBefore", false);
+        prefs.putInteger("Lvl_08_start", -1);
+        prefs.putBoolean("Lvl_09_playedBefore", false);
+        prefs.putInteger("Lvl_09_start", -1);
+        prefs.putBoolean("Lvl_10_playedBefore", false);
+        prefs.putInteger("Lvl_10_start", -1);
+        prefs.putBoolean("Lvl_11_playedBefore", false);
+        prefs.putInteger("Lvl_11_start", -1);
+        prefs.putBoolean("Lvl_12_playedBefore", false);
+        prefs.putInteger("Lvl_12_start", -1);
+        prefs.putBoolean("Lvl_13_playedBefore", false);
+        prefs.putInteger("Lvl_13_start", -1);
+        prefs.putBoolean("Lvl_14_playedBefore", false);
+        prefs.putInteger("Lvl_14_start", -1);
+        prefs.putBoolean("Lvl_15_playedBefore", false);
+        prefs.putInteger("Lvl_15_start", -1);
+        prefs.putBoolean("Lvl_16_playedBefore", false);
+        prefs.putInteger("Lvl_16_start", -1);
+        prefs.putBoolean("Lvl_17_playedBefore", false);
+        prefs.putInteger("Lvl_17_start", -1);
+
+        // Flush prefs
         prefs.flush();
     }
 
+    /*
     public void clearSavePrefs() {
         prefs.clear();
         prefs.flush();
     }
+    */
 
     @Override
     public void show() {

@@ -28,7 +28,7 @@ public class OSTManager {
     private float cavePosition = 0f;
 
     // General States
-    private static final float volumeLimit = 0f;//0.6f;
+    private static final float volumeLimit = 0.6f;
     private float volumeStep = 0.005f;
 
     public OSTManager() {

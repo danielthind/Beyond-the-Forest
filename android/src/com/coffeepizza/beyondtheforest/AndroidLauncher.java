@@ -1,5 +1,7 @@
 package com.coffeepizza.beyondtheforest;
 
+import android.os.Bundle;
+
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +15,12 @@ public class AndroidLauncher extends AndroidApplication implements Service {
 
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
+		/*
+		super.onCreate(savedInstanceState);
+		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
+		initialize(new BeyondManager(), config);
+		*/
+
 		super.onCreate(savedInstanceState);
 		AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
 

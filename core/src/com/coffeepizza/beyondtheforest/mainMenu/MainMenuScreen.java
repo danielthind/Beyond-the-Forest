@@ -484,6 +484,9 @@ public class MainMenuScreen implements Screen {
                     triggerPromptBox();
                 } else {
                     disableMenuButtons();
+                    //manager.clearSave();
+                    //Gdx.app.log(tag, "*** newButton pressed ***");
+
                     manager.setGameSaveExists();
                     manager.loadNewLevel(1);
 //                    manager.loadNewScreenClearSave(BeyondManager.OVERWORLD);
@@ -495,12 +498,16 @@ public class MainMenuScreen implements Screen {
                 if (!newGameBtn.isDisabled()) {
                     newGameBtn.startFlashing();
                     newGameBtn.showSelector();
+
+                    Gdx.app.log(tag, "*** newButton entered ***");
                 }
             }
             public void exit(InputEvent event, float x, float y, int pointer, Actor toActor) {
                 if (!newGameBtn.isDisabled()) {
                     newGameBtn.stopFlashing();
                     newGameBtn.hideSelector();
+
+                    Gdx.app.log(tag, "*** newButton exited ***");
                 }
             }
         });
@@ -552,6 +559,8 @@ public class MainMenuScreen implements Screen {
         yesBtn.addListener(new ChangeListener() {
             public void changed (ChangeEvent event, Actor actor) {
                 disableMenuButtons();
+                manager.clearSave();
+                manager.setGameSaveExists();
                 manager.loadNewLevel(1);
 //                manager.loadNewScreenClearSave(BeyondManager.OVERWORLD);
             }

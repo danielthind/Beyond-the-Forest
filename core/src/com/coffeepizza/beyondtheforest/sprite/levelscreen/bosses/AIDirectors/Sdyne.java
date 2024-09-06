@@ -69,7 +69,7 @@ public class Sdyne extends Cyberdyne {
     private Vector2 offset;
 
     // Properties
-    private int health = 1;
+    private int health = 6;
     private float topDelta = 20;        // Should be in Shelob class
     private float bottomDelta = 90;    // Should be in Shelob class
     private int shelobActive = 0;   // 0: none, 1: top right, 2: bottom right, 3: bottom left, 4: top left

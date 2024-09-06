@@ -217,7 +217,7 @@ public class LocalisedText {
             text.put(14, "YOU MAY JUST BE READY\n\n" +
                     "TO TAKE MY PLACE\n\n" +
                     "AND TAKE THE FIGHT TO THEM");
-            text.put(15, "READY TO TAKE THE FIGHT TO HIM...");
+            text.put(15, "TO HIM...");
             text.put(16, "FOR NOW GO FORWARD\n\n" +
                     "SO I CAN TEACH YOU\n\n" +
                     "NEW SKILLS TO FACE THE PATH AHEAD");

@@ -120,6 +120,11 @@ public class BeyondManager extends Game {
 		prefs.flush();
 	}
 
+	public void clearSave() {
+		prefs.clear();
+		loadingScreen.generateNewSave();
+	}
+
 //	public void loadNewScreenClearSave(int screen) {
 //		loadingScreen.clearSavePrefs();
 //		loadingScreen.generateNewSave();

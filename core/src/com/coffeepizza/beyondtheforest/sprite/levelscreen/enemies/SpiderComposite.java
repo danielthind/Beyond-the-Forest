@@ -130,7 +130,7 @@ public class SpiderComposite extends Actor {
         // Draw Web and Spider
         batch.draw(webThread, v2.x, v2.y,       // Web Thread
                 1 / BeyondManager.PPM,
-                (v1.y - v2.y)
+                (v1.y - v2.y - (32 / BeyondManager.PPM))
         );
         super.draw(batch);                      // Web
         shelob.draw(batch);                     // Spider

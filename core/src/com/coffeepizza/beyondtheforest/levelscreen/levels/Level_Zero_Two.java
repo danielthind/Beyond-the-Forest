@@ -109,6 +109,7 @@ public class Level_Zero_Two extends LevelScript {
             );
             flashAttack();
             flashJump();
+            flashChangeDir();
 
             // Camera
             // Sound
