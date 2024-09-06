@@ -8,7 +8,7 @@ Jump into this fantasy platforming adventure set in a once beautiful forest. Mur
 ## Overview
 Beyond the Forest was side project originally developed for Android, iOS and later ported to PC. When I created Beyond the Forest I wanted to:
 - Build a release a full game
-- Explore game design within mobile platformers 
+- [Explore game design within mobile platformers](https://idlemouse.net/2024/07/01/exploring-design-in-mobile-platformers/)
 
 ## Featuring
 - Explore 16 unique levels
