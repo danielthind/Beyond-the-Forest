@@ -1,7 +1,7 @@
 /**
  * Beyond the Forest. A game designed for mobile and inspired by the Castlevanias 1986.
  *
- * @author  Daniel Thind
+ * @author  IdleMouse
  * @version 1.0
  */
 
