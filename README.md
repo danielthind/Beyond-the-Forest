@@ -23,7 +23,7 @@ Art was licenced for the production of ferivative works and non-monetized media 
 ![screenshot-tablet-01](https://github.com/user-attachments/assets/bfbcd7a9-ce76-4a4a-933f-47f1d7e45f46)
 *Original art*
 
-![art-noise](https://github.com/user-attachments/assets/81744712-5b4f-4ed2-ad54-f3f68a413daf)
+![art-noise](https://github.com/user-attachments/assets/aa3be2a3-2c2d-4d00-b958-5fd97770f254)
 *Altered repo art*
 
 ## Credits
